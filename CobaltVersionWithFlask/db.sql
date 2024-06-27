@@ -1,0 +1,1 @@
+# Description: A module that manage all db operations like the db connection and the queries.

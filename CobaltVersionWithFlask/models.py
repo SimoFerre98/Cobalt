@@ -1,0 +1,1 @@
+# Description: A module that define all data models used in the application.like python classes that represent the tables in the database.

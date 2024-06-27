@@ -1,0 +1,40 @@
+<header class="">
+    <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+      <div class="flex h-16 items-center justify-around sm:justify-between">
+        <div class="md:flex md:items-center md:gap-12">
+           <!--Logo coBALT-->
+          <a class="flex items-center text-[#0047AB] no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+            co<span class="bg-clip-text text-transparent bg-gradient-to-r from-[#0047AB] to-[#3BB273]">BALT</span>
+          </a>
+        </div>
+        <div class="flex items-center gap-4 ml-4">
+          <div class="flex gap-4 sm:gap-8">
+            <!-- Login button-->
+              <div class="relative inline-flex group">
+                  <div
+                      class="absolute transitiona-all duration-1000 opacity-30 -inset-px bg-gradient-to-r from-purple-600 via-[#0047AB] to-[#3BB273] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                  </div>
+                  <!-- href"/public/html/login.html" if u want to use the buttons without flusk-->
+                  <a href="{{url_for('login')}}" title="LoginButton" 
+                      class="relative inline-flex items-center justify-center px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 text-lg font-bold text-white transition-all duration-200 bg-gray-900 font-pj rounded-xl hover:text-4xl hover:bg-gradient-to-r hover:from-purple-600 hover:via-[#0047AB] hover:to-[#3BB273]"
+                      role="button">Login
+                  </a>
+              </div>
+            <!-- Register button-->
+            <div class="">
+              <div class="relative inline-flex group">
+                <div
+                    class="absolute transitiona-all duration-1000 opacity-30 -inset-px bg-gradient-to-r from-[#3BB273] via-[#0047AB] to-purple-600 rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                </div>
+                <!-- href"/public/html/signup.html" if u want to use the buttons without flusk-->
+                <a href="{{url_for('signup')}}" title="Get quote now"
+                    class="relative inline-flex items-center justify-center px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 text-lg font-bold text-white transition-all duration-200 bg-gray-900 font-pj rounded-xl hover:text-4xl hover:bg-gradient-to-r hover:from-purple-600 hover:via-[#0047AB] hover:to-[#3BB273]"
+                    role="button">Sign up
+                </a>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </header>
